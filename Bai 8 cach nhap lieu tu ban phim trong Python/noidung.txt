@@ -3,6 +3,20 @@ giá trị nhập vào của hàm input() thường là kiểu chuỗi,
 do đó ta cần chuyển kiểu nếu như muốn lưu trữ giá trị nhập vào nếu nó không phải kiểu chuỗi
 
 print("mời bạn nhập cái gì đó:")
-s = input()
+s = input() -> chờ người dùng nhập giá trị rồi nhấn phím Enter
 print("Bạn nhập:",s)
 print("Kiểu dữ liệu:",type(s))
+
+x=int(input()) -> đổi kiểu của x về kiểu số nguyên
+x=float(intput()) -> số thực
+
+muốn đưa số về kiểu luận lý - boolean
+-> phải viết hàm
+
+def StrToBool(s):
+    return s.lower() in ("yes", "true", "t", "1")
+
+print("Mời thím nhập bool:")
+x = StrToBool(input())
+print("bạn nhập:", x)
+print("Kiểu dữ liệu: ", type(x))
