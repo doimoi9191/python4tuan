@@ -1,0 +1,8 @@
+Trong python để nhập liệu từ bàn phím ta dùng hàm input()
+giá trị nhập vào của hàm input() thường là kiểu chuỗi,
+do đó ta cần chuyển kiểu nếu như muốn lưu trữ giá trị nhập vào nếu nó không phải kiểu chuỗi
+
+print("mời bạn nhập cái gì đó:")
+s = input()
+print("Bạn nhập:",s)
+print("Kiểu dữ liệu:",type(s))
