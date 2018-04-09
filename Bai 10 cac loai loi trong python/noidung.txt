@@ -1,0 +1,12 @@
+1 lỗi cú pháp - syntax errors -> mới học, viết đâu sai đó, không thông dịch dc phần mềm
+2 lỗi thực thi - run-time ex -> thông dịch bình thường, nhưng đến 1 giai đoạn nào nó nó báo lỗi
+3 lỗi nghiệp vụ - logic errors -> thông dịch ngon lành, nhưng kết quả sai so với yêu cầu của kh -> đời cô lựu
+
+cách khắc phục
+
+try:
+    x=5
+    y=0
+    z=x/y
+except:
+    print("Lỗi cmmr")
