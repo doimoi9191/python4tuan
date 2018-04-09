@@ -20,3 +20,8 @@ print("Mời thím nhập bool:")
 x = StrToBool(input())
 print("bạn nhập:", x)
 print("Kiểu dữ liệu: ", type(x))
+
+hàm input() cho phép cta nhập tiêu đề
+
+x = input("mời bạn nhập giá trị gì đó: ")
+print("bạn nhập: ", x)

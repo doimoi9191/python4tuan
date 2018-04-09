@@ -1,0 +1,13 @@
+trong python cung cấp cho chúng ta cách xuất dữ liệu rất dễ dùng
+xuất dấu * 15 lần thì dùng câu lệnh
+print('*'*15) -> xuất dấu * ra 15 lần
+
+hàm format() xuất dữ liệu kiểu dành chỗ
+ print('{0} {1}'.format(7, 10**7)) -> kết quả '7 1000000'
+ print('a{0}b{1}c{0}d'.format('x','y') -> 'axbycxd'
+
+ xuất dạng căn phải ta có thể làm như sau:
+
+ print('-'*15)
+ print('{0:>2} {1:>11}'.format('STT', 'giá trị'))
+ print('{0:>2} {1:>11}'.format(1, 10**10))
