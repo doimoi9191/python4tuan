@@ -1,0 +1,5 @@
+cú pháp
+if điều kiện:
+    block
+Lưu ý: python không dùng ngoặc {} để bao bọc các dòng lệnh
+mà ta dùng phím Tab hoặc khoảng trắng thụt đầu dòng (thường là 4 khoảng trắng)
